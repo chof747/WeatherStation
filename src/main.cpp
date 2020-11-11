@@ -4,7 +4,7 @@
 void setupNetwork() 
 //******************************************************************************
 {
-  WiFiManager wifi();
+  WiFiManager wifi;
 
   #ifdef SERIAL_PRINT
   wifi.setDebugOutput(true);
